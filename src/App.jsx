@@ -5,6 +5,7 @@ import Randomcolor from "./component/random-color/Randomcolor";
 import StarRating from "./component/star-rating/Starrating";
 import ImageSlider from "./component/image-slider/Image-slider";
 import LoadMore from "./component/load-more/Load-more";
+import TreeView from "./component/tree-view/TreeView";
 import "./style.css";
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
 				limit={"10"}
 			/> */}
       
-			<LoadMore url={"https://dummyjson.com/products"} limit ={"20"}/>
+			{/* <LoadMore url={"https://dummyjson.com/products"} limit ={"20"}/> */}
+			<TreeView />
 		</div>
 	);
 }
