@@ -1,0 +1,17 @@
+.star-rating {
+    min-height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    gap:0.1rem
+}
+.fa-2x {
+    font-size: 2rem;
+}
+.active {
+    fill: #fff700;
+}
+.inactive {
+    fill: gray;
+
+}
