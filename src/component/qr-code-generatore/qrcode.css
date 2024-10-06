@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    display: blocl;
+}
+.qrcode {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: start;
+    align-items: center;
+    gap:1rem;
+}
+.qrcode h1 {
+    color : blue;
+}
+.qrcode input {
+    padding : .5rem .25rem;
+    width: 400px;
+    border: 2px solid #555;
+    box-shadow: 0 0 5px 4px #eee;
+    margin-bottom: 1.5rem;
+
+}
+.qrcode__img {
+    text-align: center;
+}

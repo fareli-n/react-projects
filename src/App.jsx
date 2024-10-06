@@ -6,6 +6,7 @@ import StarRating from "./component/star-rating/Starrating";
 import ImageSlider from "./component/image-slider/Image-slider";
 import LoadMore from "./component/load-more/Load-more";
 import TreeView from "./component/tree-view/TreeView";
+import QrCode from "./component/qr-code-generatore/Qrcode.jsx"
 import "./style.css";
 
 function App() {
@@ -21,7 +22,9 @@ function App() {
 			/> */}
       
 			{/* <LoadMore url={"https://dummyjson.com/products"} limit ={"20"}/> */}
-			<TreeView />
+			{/* <TreeView /> */}
+			<QrCode />
+
 		</div>
 	);
 }
