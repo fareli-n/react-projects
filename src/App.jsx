@@ -7,6 +7,7 @@ import ImageSlider from "./component/image-slider/Image-slider";
 import LoadMore from "./component/load-more/Load-more";
 import TreeView from "./component/tree-view/TreeView";
 import QrCode from "./component/qr-code-generatore/Qrcode.jsx"
+import ScanQrCode from "./component/scan-qr-code/Scan-qr-code.jsx";
 import "./style.css";
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
       
 			{/* <LoadMore url={"https://dummyjson.com/products"} limit ={"20"}/> */}
 			{/* <TreeView /> */}
-			<QrCode />
+			{/* <QrCode /> */}
+			<ScanQrCode />
 
 		</div>
 	);
