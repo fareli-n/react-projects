@@ -1,0 +1,28 @@
+.scroll {
+    text-align: center;
+}
+.scroll__header {
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+}
+h1 {
+    background-color: rgb(66, 235, 179);
+    margin: 0;
+    padding : 1rem;
+    
+}
+.scroll__scroll-bar-wrapper {
+    background-color: black;
+    height: 15px;
+}
+.scroll__scroll-bar-percentage{
+    background-color: blue;
+    height: 15px;
+}
+.scroll__content {
+    background-color: rgb(104, 181, 191);
+    font-size: 1.2rem;
+    padding : 1rem;
+}

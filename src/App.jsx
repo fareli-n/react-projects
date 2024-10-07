@@ -9,6 +9,7 @@ import TreeView from "./component/tree-view/TreeView";
 import QrCode from "./component/qr-code-generatore/Qrcode.jsx"
 import ScanQrCode from "./component/scan-qr-code/Scan-qr-code.jsx";
 import LightDarkMode from "./component/light-dark-switch/Light-dark-mode.jsx";
+import ScrollIndicator from "./component/scroll-indicator/ScrollIndicator.jsx";
 
 function App() {
 	return (
@@ -26,7 +27,8 @@ function App() {
 			{/* <TreeView /> */}
 			{/* <QrCode /> */}
 			{/* <ScanQrCode /> */}
-			<LightDarkMode />
+			{/* <LightDarkMode /> */}
+			<ScrollIndicator  url={"https://dummyjson.com/products?limit=100"}/>
 
 		</div>
 	);
