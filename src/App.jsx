@@ -10,7 +10,7 @@ import QrCode from "./component/qr-code-generatore/Qrcode.jsx"
 import ScanQrCode from "./component/scan-qr-code/Scan-qr-code.jsx";
 import LightDarkMode from "./component/light-dark-switch/Light-dark-mode.jsx";
 import ScrollIndicator from "./component/scroll-indicator/ScrollIndicator.jsx";
-
+import TabMenu from "./component/tab-menu/TabMenu.jsx";
 function App() {
 	return (
 		<div className="app">
@@ -28,7 +28,8 @@ function App() {
 			{/* <QrCode /> */}
 			{/* <ScanQrCode /> */}
 			{/* <LightDarkMode /> */}
-			<ScrollIndicator  url={"https://dummyjson.com/products?limit=100"}/>
+			{/* <ScrollIndicator  url={"https://dummyjson.com/products?limit=100"}/> */}
+			<TabMenu />
 
 		</div>
 	);

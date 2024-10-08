@@ -1,0 +1,28 @@
+
+.tab {
+    width: 400px;
+    display: grid;
+    place-content: center;
+    font-size: 1.5rem;
+}
+.tab__heading {
+    display: flex;
+}
+.tab__label {
+    background-color: #777;
+    border: 1px solid black;
+    padding : .5rem 1rem;
+    color : white;
+
+}
+.tab__label:hover {
+    opacity: .8;
+}
+.tab__content {
+    border: 1px solid black;
+    padding : 2rem .5rem;
+    background-color: #eee;
+}
+.tab__label.active {
+    background-color: crimson;
+}
